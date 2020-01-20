@@ -1,6 +1,6 @@
 Name:           xmltoman
 Version:        0.4
-Release:        8%{?dist}
+Release:        9%{?dist}
 Summary:        Scripts for converting XML to roff or HTML
 
 Group:          Applications/Publishing
@@ -49,6 +49,9 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.4-9
+- Mass rebuild 2013-12-27
+
 * Thu Mar 21 2013 Ondrej Vasik <ovasik@redhat.com> 0.4-8
 - Ship manpages
 
